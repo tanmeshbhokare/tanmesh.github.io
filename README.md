@@ -1,39 +1,37 @@
-# Tanmesh Bhokare
+# About Me
 
-## DevOps Engineer
+Critical thinking DevOps Engineer with extensive understanding of high availability architecture and concepts.
+Purpose driven professional who can be a strong team player plus work effectively independently.
 
- 	Pune, India
-	linkedin.com/in/tanmeshbhokare/
-	
-Critical thinking DevOps Engineer with extensive understanding of high availability architecture and concepts. Purpose-driven professional with capacity to be strong team player plus work effectively independently.
+# My work
 
-## Technical Profile
-•	Cloud Providers:		AWS, Azure
+[**Migrated Jenkins** from Windows 2012 server to Windows 2019 server.](https://tanmesh.hashnode.dev/migrate-jenkins-from-windows-2012-to-windows-server-2019)
 
-•	Version Control: 		Git
+[**Refactored** the Jenkins shared library from single file of 2.5k LOC to a structured file hierarchy using OOPS concepts and reducing redundancy](https://tanmesh.hashnode.dev/create-optimized-jenkins-shared-library)
 
-•	CI/CD:				Jenkins, GitLab
+Integrated jenkins build status with BitBucket SCM by writing a function in jenkins shared library which uses bitbucket APIs.
 
-•	Containerization:		Docker, Kubernetes, HELM
+- Encountered a challenge with build status as bitbucket doesn't support unstable status.
+- Wrote an Algorithm to handle this issue.
 
-•	Infrastructure as Code: 	Ansible, Terraform 
+Further organised or modified jenkinsfile to looklike templates & all logics were transfered to shared library /vars 
 
-•	Scripting Languages: 	Python, Groovy, Bash
+Wrote confluence publish function after "publish to confluence" plugin was suspended by Jenkins.
 
-•	Monitoring: 			Prometheus, Grafana
+Developed a python utility in python for managing the VM interactions on AWS and Vagrant (on-premises)
 
-•	Code Quality: 		SonarQube, DotCover
+Introduced docker to our pipelines for containerizing dotnet based apps & uploading on docker hub.
 
-•	Atlassian Tools: 		Bitbucket, Confluence, Jira
+Wrote an ansible script for updating agent.jar files on jenkins nodes.
 
-•	Build Tools: 			MSBuild, Maven, CMake, XCode
+Replaced openCover tool with dotCover on all C#, .Net pipelines as dotCover was better rated in our research.
 
-•	Test Tools: 			Selenium, K6, xUnit, MSTest
+Replaced a few Windows UI based integration tests from AWS EC2 to Vagrant on-prem VMs to save costs.
 
-•	Package Managers: 	NPM, Conan, NuGet
+Researched SonarQube with other SAST tools and later had a discussion with upper management for buying atleast developer edition as it gives PR features.
 
-•	Artifact Management: 	JFrog Artifactory
+Created a template for gitlab-CI, as it uses YAML. I was too restricted but identified few workarounds for reusbaility like anchors & alias, hidden stages, extends keyword and include in common file.
 
-•	Virtualization: 		Vagrant
+Enabled default merge checks on Bitbucket for repositories.
 
-•	Operating Systems: 		Linux, Windows, Mac
+Added auto comment on PR via Jenkins shared library, using build info as a context for comment body and build status for approval on PR.
